@@ -213,6 +213,7 @@ padding: 2%;
 /* footer */ 
 footer{
     display: flex;
+    border: solid 4px pink;
     flex-direction: row;
     justify-content: center;
     gap: 50px;
@@ -249,31 +250,32 @@ ul, li {
         color: white;
         font-size: 18px;
     }
+/*  Mise en page du header responssive */
     .boite{
         display: flex;
         flex-direction: column;   
         gap: 0;
     }
 
+/*  Mise en page du cadre Nike responssive */
     .cadreNike{
-            max-width: 600px;
-            height: 900px;
-            display: flex;
-            flex-direction: column;
-            border: solid 4px yellow; 
-            background-image: url(./image/img-shoe-home.png);
-            background-repeat: no-repeat;
-            background-position: bottom center;  
-            background-size: 100%;
-            margin: none;
+        max-width: 414px;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        border: solid 4px yellow; 
+        background-image: url(./image/img-shoe-home.png);
+        background-repeat: no-repeat;
+        background-position: bottom center;  
+        background-size: 100%;
+        margin: 1px;
         }
-        .cadre2{
-
-            align-self: flex-start;
-            max-width: 600px;
-            text-align: center;
-            border: solid 4px red;
-            width: fit-content;
+    .cadre2{
+        align-self: flex-start;
+        max-width: 600px;
+        text-align: center;
+        border: solid 4px red;
+        width: fit-content;
     }
     .cadreShoes{
         display: none;
@@ -285,16 +287,112 @@ ul, li {
         border: solid 5px #EF32D9;
         width: 160px;
 }
-h3{
-    color: cyan;
-    font-size: 30px;
-    font-weight: 500;
+/* Mise en page de la section "meilleures ventes" responssive */
+    h3{
+        color: cyan;
+        font-size: 30px;
+        font-weight: 500;
 }
-.meilleureVentes{
-    border: solid 4px blue;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    .meilleureVentes{
+        width: 395px;
+        border: solid 4px blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1px;
+}
+    .prix{
+        font-weight: 600;
+}
+    h3{
+        color: cyan;
+        font-size: 35px;
+        font-weight: 500;   
+}
+/* Mise en page de la section "nouveauté" responssive */
+    .cadre3{
+        border: solid 4px blue;
+        margin: 1px;
+}
+    .cadreCarre{
+        width: 314px;
+        height: 2700px;
+        border: solid 4px pink;
+        margin: 2px;
+}
+    .parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        gap: none;
+}
+    .parent img{
+        object-fit: cover;
+        width: 394px;
+        height: 415px;
+}
+    .enfant1{
+        position: relative;
+}
+    .enfant2{
+        position: relative;
+}   
+    .enfant3{
+        position: relative;
+}
+    .enfant4{
+        position: relative;
+}
+    .enfant5{
+        position: relative;
+}
+    .enfant6{
+        position: relative;
+        object-fit: cover;
+}
+    .voir{
+        position: absolute;
+        right: 230px;
+        bottom: 15px; 
+        padding: 10px 13px;
+        background-color: black;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        border-radius: 43%;   
+        cursor: pointer; 
+}
+/* Pied de page responssive */
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 5px;
+        border: solid 4px pink;
+        margin: 1px;
+}
+    ul, li {
+        font-size: 18px;
+        margin: 1px;
+}
+
+    .hrfooter{
+        border: solid 2px #FFFFFF33;
+
+}
+    .fin{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: solid 4px blue;
+}
+    .finRS{
+        display: flex;
+        justify-content: space-between;
+        border: solid 4px pink;
+        align-self: center;
+        width: 250px;
 }
 }
