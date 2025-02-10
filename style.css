@@ -1,8 +1,10 @@
 body{
     background-color: #3e4044;
+    margin: 60px;
 }
-a{
+a, p{
     color: white;
+    font-size: 24px;
 }
 header{
     border: solid 4px violet;
@@ -14,14 +16,14 @@ header{
 
 /* mise en page du header */
 .logoNike{
-    width: 70px;
-    height: 60px;
+    width: 40px;
+    height: 30px;
 }
 .boite{
     border: solid 4px red;
     display: flex;
     justify-content: space-between;
-    gap: 35px;
+    gap: 50px;
     align-items: center;
 }
 .item1{
@@ -34,4 +36,212 @@ header{
    
 }
 
+hr{
+    border: solid 5px #EF32D9;
+
+}
+h3{
+    color: cyan;
+    font-size: 64px;
+    font-weight: 500;
+
+}
 /*  Mise en page de la premiere section*/
+
+.cadreNike{
+    width: 1196px;
+    height: 601px;
+    display: flex;
+    justify-content: space-between;
+    border: solid 4px yellow; 
+    background-image: url(./image/img-shoe-home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    margin: 60px; 
+}
+.cadre2{
+    width: 562px;
+    height: 418px;
+    border: solid 4px red;
+    margin-left: 60px;
+    width: fit-content;
+}
+h1{
+    color:cyan;
+    font-size: 80px;
+}
+h2{
+    color: white;
+    font-size: 40px;
+}
+.montserratTypo{
+    font-family: "Montserrat", serif;
+    font-style: normal;
+}
+.nongras{
+    font-weight: 100;
+}
+button{
+color: white;
+background-color: #EF32D9;
+padding: 2%;
+}
+.cadreShoes{
+    width: fit-content;
+    border: solid 4px blue;   
+    align-self: flex-end;
+    align-self: flex-end;
+}
+
+.cadreRS{
+    border: solid 4px white;
+    align-self: center;
+    flex-direction: column;
+}
+
+/* Mise en page de la section meilleures ventes */
+
+.meilleureVentes{
+    border: solid 4px blue;
+     margin: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.produit{
+    border: solid 4px pink;
+}
+.lebronTitre{
+    color: cyan;
+    font-weight: 500;
+    margin-right: 10%;
+    font-weight: 500;
+}
+.colorTitre{
+    color: cyan;  
+    margin-right: 110px;
+}
+.prix{
+    font-weight: 600;
+}
+
+/* Section  Nouvelle collection */
+
+.ligneRose{
+    width: 10%;
+    margin-left: 0;
+}
+.cadre3{
+    border: solid 4px blue;
+    margin: 60px;
+}
+.cadreCarre{
+    width: 971px;
+    height: 780px;
+    border: solid 4px white;
+    margin: 60px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 8px;
+    position: relative;
+    
+}
+.parent img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.enfant1{
+    position: relative;
+    grid-column: span 3 / span 3;
+    grid-row: span 6 / span 6;
+}
+.enfant2{
+    position: relative;
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 7;
+}   
+.enfant3{
+    position: relative;
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 7;
+}
+.enfant4{
+    position: relative;
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+.enfant5{
+    position: relative;
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 4;
+    grid-row-start: 4;
+}
+.enfant6{
+    position: relative;
+    grid-column: span 2 / span 2;
+    grid-row: span 8 / span 8;
+    grid-column-start: 6;
+    grid-row-start: 1;
+}
+.voir{
+    position: absolute;
+    bottom: 10px; /* Position du bouton verticalement */
+    right: 10px; /* Position du bouton horizontalement */
+    padding: 10px 13px;
+    background-color: black;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border-radius: 43%;   
+    cursor: pointer; 
+}
+.ligneRose2{
+    width: 50%;
+}
+/* footer */ 
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+ul, li {
+    color: white;
+    list-style: none;
+}
+.hrfooter{
+    border: solid 2px #FFFFFF33;
+
+}
+.fin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 4px blue;
+}
+.tailleDroit{
+    font-size: 14px;
+}
+.finRS{
+    display: flex;
+    justify-content: space-between;
+    border: solid 4px pink;
+    align-self: center;
+    width: 250px;
+}
+@media (max-width: 600px){
+
+
+}
