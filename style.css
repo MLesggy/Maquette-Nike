@@ -242,6 +242,59 @@ ul, li {
     width: 250px;
 }
 @media (max-width: 600px){
+    body{ 
+        margin: 5px;
+    }
+    a, p{
+        color: white;
+        font-size: 18px;
+    }
+    .boite{
+        display: flex;
+        flex-direction: column;   
+        gap: 0;
+    }
 
+    .cadreNike{
+            max-width: 600px;
+            height: 900px;
+            display: flex;
+            flex-direction: column;
+            border: solid 4px yellow; 
+            background-image: url(./image/img-shoe-home.png);
+            background-repeat: no-repeat;
+            background-position: bottom center;  
+            background-size: 100%;
+            margin: none;
+        }
+        .cadre2{
 
+            align-self: flex-start;
+            max-width: 600px;
+            text-align: center;
+            border: solid 4px red;
+            width: fit-content;
+    }
+    .cadreShoes{
+        display: none;
+    }
+    .cadreRS{
+        display: none;
+    }
+    .ligneRose{
+        border: solid 5px #EF32D9;
+        width: 160px;
+}
+h3{
+    color: cyan;
+    font-size: 30px;
+    font-weight: 500;
+}
+.meilleureVentes{
+    border: solid 4px blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 }
