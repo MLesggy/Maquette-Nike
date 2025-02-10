@@ -7,7 +7,6 @@ a, p{
     font-size: 24px;
 }
 header{
-    border: solid 4px violet;
     display: flex;
     justify-content: space-between;
     margin: 60px;
@@ -20,18 +19,15 @@ header{
     height: 30px;
 }
 .boite{
-    border: solid 4px red;
     display: flex;
     justify-content: space-between;
     gap: 50px;
     align-items: center;
 }
 .item1{
-    border: solid 4px greenyellow;
     font-size: 20px;
 }
 .item2{
-    border: solid 4px yellow;
     font-size: 20px;
    
 }
@@ -53,7 +49,6 @@ h3{
     height: 601px;
     display: flex;
     justify-content: space-between;
-    border: solid 4px yellow; 
     background-image: url(./image/img-shoe-home.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -63,7 +58,6 @@ h3{
 .cadre2{
     width: 562px;
     height: 418px;
-    border: solid 4px red;
     margin-left: 60px;
     width: fit-content;
 }
@@ -89,13 +83,11 @@ padding: 2%;
 }
 .cadreShoes{
     width: fit-content;
-    border: solid 4px blue;   
     align-self: flex-end;
     align-self: flex-end;
 }
 
 .cadreRS{
-    border: solid 4px white;
     align-self: center;
     flex-direction: column;
 }
@@ -103,14 +95,10 @@ padding: 2%;
 /* Mise en page de la section meilleures ventes */
 
 .meilleureVentes{
-    border: solid 4px blue;
      margin: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.produit{
-    border: solid 4px pink;
 }
 .lebronTitre{
     color: cyan;
@@ -133,13 +121,11 @@ padding: 2%;
     margin-left: 0;
 }
 .cadre3{
-    border: solid 4px blue;
     margin: 60px;
 }
 .cadreCarre{
     width: 971px;
     height: 780px;
-    border: solid 4px white;
     margin: 60px;
 }
 .parent{
@@ -213,7 +199,6 @@ padding: 2%;
 /* footer */ 
 footer{
     display: flex;
-    border: solid 4px pink;
     flex-direction: row;
     justify-content: center;
     gap: 50px;
@@ -230,7 +215,6 @@ ul, li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: solid 4px blue;
 }
 .tailleDroit{
     font-size: 14px;
@@ -238,7 +222,6 @@ ul, li {
 .finRS{
     display: flex;
     justify-content: space-between;
-    border: solid 4px pink;
     align-self: center;
     width: 250px;
 }
@@ -263,7 +246,6 @@ ul, li {
         height: 900px;
         display: flex;
         flex-direction: column;
-        border: solid 4px yellow; 
         background-image: url(./image/img-shoe-home.png);
         background-repeat: no-repeat;
         background-position: bottom center;  
@@ -274,7 +256,6 @@ ul, li {
         align-self: flex-start;
         max-width: 600px;
         text-align: center;
-        border: solid 4px red;
         width: fit-content;
     }
     .cadreShoes{
@@ -295,7 +276,6 @@ ul, li {
 }
     .meilleureVentes{
         width: 395px;
-        border: solid 4px blue;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -312,13 +292,11 @@ ul, li {
 }
 /* Mise en page de la section "nouveauté" responssive */
     .cadre3{
-        border: solid 4px blue;
         margin: 1px;
 }
     .cadreCarre{
         width: 314px;
         height: 2700px;
-        border: solid 4px pink;
         margin: 2px;
 }
     .parent{
@@ -369,7 +347,6 @@ ul, li {
         flex-direction: column;
         justify-content: flex-start;
         gap: 5px;
-        border: solid 4px pink;
         margin: 1px;
 }
     ul, li {
@@ -386,12 +363,10 @@ ul, li {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        border: solid 4px blue;
 }
     .finRS{
         display: flex;
         justify-content: space-between;
-        border: solid 4px pink;
         align-self: center;
         width: 250px;
 }
